@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.acceso{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black ;
+    transform: rotateY(180deg);
+    transition: 5s;
+    
+}
+.spento{
+    width: 100px;
+    height: 100px;
+    transition: 5s;
+    border: 1px solid black ;
+
+}
+.spento2{
+    display: none;
+    
+}
+.acceso2{
+ display: block;
+}
+.text{
+    transform: rotateY(180deg);
+}
